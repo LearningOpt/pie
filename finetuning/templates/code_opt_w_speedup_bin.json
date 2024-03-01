@@ -1,0 +1,5 @@
+{
+    "description": "Template used for program optimization.",
+    "prompt_no_input": "Below is a program. Optimize the program and provide a more efficient version with at least {speedup_bin} speedup.\n\n### Program:\n{src_code}\n\n### Optimized Version with at least {speedup_bin}:\n",
+    "response_split": "### Optimized Version:"
+}

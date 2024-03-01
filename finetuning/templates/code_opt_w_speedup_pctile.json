@@ -1,0 +1,5 @@
+{
+    "description": "Template used for program optimization.",
+    "prompt_no_input":  "This is a slow program we want to optimize {pctile}/10. ### Program:\n{src_code}\n\n### Optimized Version with score {pctile}/10:\n", 
+    "response_split": "### Optimized Version:"
+}

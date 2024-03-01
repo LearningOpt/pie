@@ -1,0 +1,6 @@
+model_generated_outputs_path: "PATH_TO_YOUR_OUTPUTS"
+output_dir: "PATH_TO_DIRECTORY_WHERE_YOU_WANT_TO_SAVE_EVALUATION_RESULTS"
+is_prompt_based: False # should always be False
+cpus_available: -1
+model_generated_potentially_faster_code_col: "generated_answers" # column in the model-generated outputs that contains the generated code, it should be a list of strings
+num_problems_to_evaluate: -1 # -1 means evaluate all problems

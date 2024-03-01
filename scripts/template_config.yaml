@@ -1,0 +1,22 @@
+text_gen_args:
+  generation_model_name: "your_model_name"
+  volume_mount: "/path/to/your/volume"
+  max_best_of: 5
+  port: 4242
+
+sampling_args:
+  test_file: "/path/to/your/test_file"
+  output_file: "/path/to/your/output_file"
+  do_sample: true
+  num_samples: 8
+  max_new_tokens: 1000
+  temperature: 0.7
+  num_threads: 20
+  prompt_name: "code_opt"
+
+eval_args:
+  output_dir: "/path/to/your/evaluation_output_directory"
+  is_prompt_based: false
+  cpus_available: -1
+  model_generated_potentially_faster_code_col: "generated_answers"
+  num_problems_to_evaluate: -1

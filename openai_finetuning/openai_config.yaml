@@ -1,0 +1,10 @@
+api_key: ""
+organization: ""
+input_train_path: ""
+input_test_path: ""
+max_train: -1
+max_val: -1
+max_len: -1
+epochs: 1
+output_dir: ""
+model_suffix: ""
