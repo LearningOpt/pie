@@ -1,1 +1,47 @@
-../../blobs/2ef41cbc275000b29afe157ba487f0530b8c26dc
+{
+  "add_bos_token": true,
+  "add_eos_token": false,
+  "additional_special_tokens": [
+    "▁<PRE>",
+    "▁<MID>",
+    "▁<SUF>",
+    "▁<EOT>"
+  ],
+  "bos_token": {
+    "__type": "AddedToken",
+    "content": "<s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "clean_up_tokenization_spaces": false,
+  "eos_token": {
+    "__type": "AddedToken",
+    "content": "</s>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "eot_token": "▁<EOT>",
+  "fill_token": "<FILL_ME>",
+  "legacy": null,
+  "middle_token": "▁<MID>",
+  "model_max_length": 1000000000000000019884624838656,
+  "pad_token": null,
+  "prefix_token": "▁<PRE>",
+  "sp_model_kwargs": {},
+  "suffix_first": false,
+  "suffix_token": "▁<SUF>",
+  "tokenizer_class": "CodeLlamaTokenizer",
+  "unk_token": {
+    "__type": "AddedToken",
+    "content": "<unk>",
+    "lstrip": false,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "use_default_system_prompt": false
+}
