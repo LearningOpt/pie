@@ -2,7 +2,7 @@ OUTPUT_DIR=${OUTPUT_DIR:-"saved_models/code_opt"}
 BASE_MODEL=${BASE_MODEL:-"codellama/CodeLlama-7b-hf"}
 
 torchrun --nproc_per_node=8 \
-    --master_port=1234 full_ft.py \
+    --master_port=1234 finetune.py \
     --base_model $BASE_MODEL \
     --data_path ./data/ \
     --output_dir $OUTPUT_DIR \
