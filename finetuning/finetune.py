@@ -122,7 +122,7 @@ def train(
         base_model,
         torch_dtype=torch.bfloat16,
         device_map=device_map,
-        use_flash_attention_2=use_flash_attention,
+        attn_implementation="flash_attention_2",
     )
 
     tokenizer = CodeLlamaTokenizer.from_pretrained(base_model)
