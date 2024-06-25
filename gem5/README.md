@@ -27,7 +27,7 @@ On your system you will need to have docker installed. The module works using th
 
 from gem5 import simulator 
 env = simulator.make(...) 
-resutls = env.submit_multiple_single_submissions
+results = env.submit_multiple_single_submissions(...)
 
 ```
 
