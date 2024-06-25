@@ -1,4 +1,5 @@
 model_generated_outputs_path: "PATH_TO_YOUR_OUTPUTS"
+reference_file_path: "PATH_TO_REFERENCE_FILE_JSONL" # The path to the reference file. This should be the reference .jsonl file containing the reference outputs in addition to all other metadata in the test set file.
 output_dir: "PATH_TO_DIRECTORY_WHERE_YOU_WANT_TO_SAVE_EVALUATION_RESULTS"
 is_prompt_based: False # should always be False
 cpus_available: -1
