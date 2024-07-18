@@ -14,6 +14,11 @@ Results from our experiments can be located in [this google drive folder](https:
 <img src="../docs/images/arch.png" alt="gem5">
 
 ## Usage 
+\***********************************************************************************************************************************
+
+**Note that in order to use the module and its container for simulation, your architecture will need to be either x86-64 or Amd64** 
+
+\***********************************************************************************************************************************
 
 First you need to configure the pie project as part of your python path. You can do this by running the following command from the root of the pie project:
 
